@@ -36,7 +36,7 @@ header {
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: 397px;
+    height: 390px;
     text-align: center;
 }
 
@@ -76,9 +76,9 @@ header img {
 .header--title-container .header--button {
     position: absolute;
     left: calc(50% - 124px);
-    top: 320px;
+    top: 328px;
     display: block;
-    margin-top: 36px;
+    margin-top: 26px;
     padding: 15px;
     width: 244px;
     height: 48px;
@@ -96,5 +96,101 @@ header img {
     width: 13px;
     height: 8px;
     margin-left: 10px;
-    background-image: url(./assets/icons/down-arrow.svg);
+    background-image: url('./assets/icons/down-arrow.svg');
+}
+
+.main-image .background-skincare {
+    width: 100%;
+    min-width: 320px;
+    height: 387px;
+    margin-bottom: 50px;
+    background-image: url('./assets/img/skincare.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-products-container {
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.product--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.product--title h2 {
+    font-size: var(--large);
+    font-weight: 400;
+    line-height: 2.6rem;
+    color: var(--metal-blue);
+    margin-bottom: 53px;
+}
+
+.product--title p {
+    font-size: var(--small);
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--metal-blue);
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+/*Card Container*/
+.products-container--slider {
+    display: flex;
+    gap: 20px;
+    height: 600px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+.products-container--card {
+    position: relative;
+    scroll-snap-align: center;
+    width: 80%;
+    min-width: 300px;
+    max-width: 300px;
+    height: 570px;
+    margin: 0 auto 0;
+    padding: 0 24px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.product-info-container .product-info-img img {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 256px;
+    height: 374px;
+    border-radius: 5px;
+}
+
+.product-info-container .product-info-description {
+    text-align: left;
+    color: var(--metal-blue);
+}
+
+.product-info-description .product-card--title {
+    font-size: var(--medium);
+    font-weight: lighter;
+    line-height: 2rem;
+    margin-bottom: 6px;
+}
+
+.product-info-description .product-card--price {
+    font-size: var(--small);
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.product-info-description .product-card--description {
+    font-size: var(--small);
+    font-weight: lighter;
+    line-height: 1.8rem;
 }
