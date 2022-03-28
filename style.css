@@ -1,0 +1,30 @@
+/*
+1. Posicionamientop
+2. Modelo Caja
+3. Tipografia
+4. Visuales
+5. Otros
+*/
+
+:root {
+    -metal-blue: #434655;
+    -gray-blue: #737687;
+    -just-white: #FFFFFF;
+    -gray: #FAF8F7;
+    -warm-black: #201E1C;
+    -large: 2.4rem;
+    -medium: 1.8rem;
+    -small: 1.6rem;
+    -extra-small: 1.4rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Raleway', sans-serif;
+}
