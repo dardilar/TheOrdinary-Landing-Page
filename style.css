@@ -112,7 +112,6 @@ header img {
 .main-products-container {
     width: 100%;
     min-width: 320px;
-    padding-bottom: 70px;
     text-align: center;
 }
 
@@ -144,7 +143,7 @@ header img {
 .products-container--slider {
     display: flex;
     gap: 20px;
-    height: 600px;
+    height: 624px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
@@ -193,4 +192,76 @@ header img {
     font-size: var(--small);
     font-weight: lighter;
     line-height: 1.8rem;
+}
+
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 44px 10px;
+    background-color: var(--metal-blue);
+}
+
+.product-detail--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--just-white);
+}
+
+.product-detail--title h2 {
+    font-size: var(--large);
+    font-weight: bold;
+    line-height: 2.6rem;
+    margin-top: 18px;
+    margin-bottom: 24px;
+}
+
+.product-detail--title p {
+    font-size: var(--extra-small);
+    font-weight: 400;
+    line-height: 1.8rem;
+    margin-bottom: 24px;
+}
+
+/*Card Benefits*/
+.product-detail--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 152px;
+    margin: 24px auto;
+    padding: 15px;
+    background-color: var(--gray-blue);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+    color: var(--just-white);
+}
+
+.product-detail--card .clock {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./assets/icons/clock.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product-detail--card .product--card-title {
+    margin-bottom: 10px;
+    font-size: var(--medium);
+    font-weight: bold;
+    line-height: 1.8rem;
+}
+
+.product-detail--card .product--card-body {
+    font-size: var(--extra-small);
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #D4D4D4;
 }
