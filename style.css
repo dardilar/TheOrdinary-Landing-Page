@@ -105,7 +105,7 @@ header img {
     min-width: 320px;
     height: 387px;
     margin-bottom: 50px;
-    background-image: url('./assets/img/skincare.png');
+    background-image: url('https://i.ibb.co/F7N8qPm/skincare.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -274,7 +274,7 @@ header img {
     width: 100%;
     min-width: 320px;
     height: 50vh;
-    background-image: url('./assets/img/theordinary-medium.jpg');
+    background-image: url('https://i.ibb.co/RT9BmSM/theordinary-medium.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
