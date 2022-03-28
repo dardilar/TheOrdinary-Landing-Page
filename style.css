@@ -99,6 +99,7 @@ header img {
     background-image: url('./assets/icons/down-arrow.svg');
 }
 
+/*Section Skincare Image*/
 .main-image .background-skincare {
     width: 100%;
     min-width: 320px;
@@ -109,6 +110,7 @@ header img {
     background-repeat: no-repeat;
 }
 
+/*Section Products*/
 .main-products-container {
     width: 100%;
     min-width: 320px;
@@ -194,12 +196,13 @@ header img {
     line-height: 1.8rem;
 }
 
+/*Section Benefits Cards*/
 .main-product-detail {
     position: relative;
     width: 100%;
     min-width: 320px;
     height: auto;
-    padding: 44px 10px;
+    padding: 40px 10px 20px;
     background-color: var(--metal-blue);
 }
 
@@ -232,7 +235,7 @@ header img {
     width: 90%;
     min-width: 288px;
     max-width: 400px;
-    height: 152px;
+    min-height: 152px;
     margin: 24px auto;
     padding: 15px;
     background-color: var(--gray-blue);
@@ -264,4 +267,15 @@ header img {
     font-weight: 400;
     line-height: 1.8rem;
     color: #D4D4D4;
+}
+
+/*Section The Ordinary image*/
+.theordinary-img-container {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('./assets/img/theordinary-medium.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
