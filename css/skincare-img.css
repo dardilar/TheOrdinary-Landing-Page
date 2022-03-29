@@ -1,0 +1,14 @@
+.main-image {
+    display: flex;
+    justify-content: center;
+}
+
+.main-image .background-skincare {
+    width: 375px;
+    min-width: 320px;
+    height: 387px;
+    margin-bottom: 50px;
+    background-image: url('https://i.ibb.co/F7N8qPm/skincare.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

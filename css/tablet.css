@@ -1,0 +1,15 @@
+.product-cards--container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 834px;
+    margin: 0 auto;
+}
+
+footer .left-footer ul {
+    display: flex;
+    margin-left: 96px;
+}
+
+footer .left-footer ul a {
+    padding: 0 22px;
+}

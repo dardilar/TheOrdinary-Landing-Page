@@ -202,7 +202,7 @@ header img {
     width: 100%;
     min-width: 320px;
     height: auto;
-    padding: 40px 10px 20px;
+    padding: 40px 10px 30px;
     background-color: var(--metal-blue);
 }
 
@@ -234,7 +234,7 @@ header img {
 .product-detail--card {
     width: 90%;
     min-width: 288px;
-    max-width: 400px;
+    max-width: 350px;
     min-height: 152px;
     margin: 24px auto;
     padding: 15px;
@@ -308,6 +308,10 @@ footer .left-footer ul {
 .left-footer a {
     text-decoration: none;
     color: var(--metal-blue);
+}
+
+.left-footer a:hover {
+    font-weight: bold;
 }
 
 /*WhatsApp Button*/

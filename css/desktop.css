@@ -1,0 +1,83 @@
+header {
+    flex-direction: row;
+    height: 300px;
+    border-bottom: 1px solid #434655;
+}
+
+header img {
+    width: 223px;
+    height: 180px;
+    margin-top: 52px;
+    margin-right: 78px;
+    align-self: flex-start;
+}
+
+.header--title-container {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 150px;
+    text-align: left;
+    align-self: center;
+}
+
+.header--title-container .header--button {
+    display: none;
+}
+
+.header--button span {
+    display: none;
+}
+
+/*Section Skincare Image*/
+.main-image .background-skincare {
+    display: none;
+}
+
+/*Section Products*/
+.main-products-container {
+    margin-top: 60px;
+    width: 100%;
+    min-width: 320px;
+    text-align: left;
+}
+
+.product--title p {
+    display: none;
+}
+
+.products-container--slider {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-auto-rows: 600px;
+    justify-content: center;
+    gap: 20px;
+    height: 1280px;
+}
+
+.main-product-detail {
+    height: 400px;
+}
+
+.products-container--card {
+    width: 80%;
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.product-cards--container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.product-detail--card {
+
+    max-width: 310px;
+}
+
+.theordinary-img-container {
+    background-image: url('https://i.ibb.co/RT9BmSM/theordinary-medium.jpg'); 
+}
